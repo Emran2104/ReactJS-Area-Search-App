@@ -1,0 +1,110 @@
+.page-home {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    grid-gap: 30px;
+    padding: 20px 0;
+}
+
+.home-section {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    min-height: 217px;
+    padding: 30px 0 40px 0;
+    background: rgba(97, 187, 243, 0.1);box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );backdrop-filter: blur( 12.5px );-webkit-backdrop-filter: blur( 12.5px );border-radius: 10px;
+}
+
+.home-section-form {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 16px;
+}
+
+.home-section-title {
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.home-section-input {
+    border: none;
+    border-radius: 3px;
+    width: 180px;
+    height: 30px;
+}
+
+input[placeholder="Area Code"], input[placeholder="City Name"] {
+    text-align: center;
+    font-style: italic;
+}
+
+.home-section-btn {
+    width: 180px;
+    height: 30px;
+    background: #ffcd76;
+    border: 0;
+    border-radius: 3px;
+    font-style: normal;
+    font-weight: bold;
+    background: rgba(255, 196, 0, 0.726);box-shadow: 0 5px 20px -5px rgba(246, 197, 0, 0.719);backdrop-filter: blur( 12.5px );-webkit-backdrop-filter: blur( 12.5px );border-radius: 10px;
+}
+
+.home-section-result {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-section-result-form {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    grid-gap: 15px;
+    padding: 25px;
+    background: rgba(2, 6, 20, 0.1);
+    background: none;
+    border-bottom: 1px solid #0000006b;
+}
+
+.home-section-result-form-main {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    grid-gap: 10px;
+}
+
+.home-section-result-type {
+    font-weight: normal;
+    font-style: normal;
+    opacity: 0.5;
+}
+
+.home-section-result-type-main {
+    font-weight: normal;
+    font-style: italic;
+    opacity: 0.75;
+}
+
+.home-section-result-text {
+    font-weight: 700;
+}
+
+.home-section-result-btn {
+    width: 150px;
+    height: 25px;
+    background: #ffcd76;
+    border: 1px solid #FFFFFF;
+    border: 0;
+    border-radius: 3px;
+    font-style: normal;
+    font-weight: bold;
+    background: rgba(255, 196, 0, 0.726);box-shadow: 0 5px 20px -5px rgba(246, 197, 0, 0.719);backdrop-filter: blur( 12.5px );-webkit-backdrop-filter: blur( 12.5px );border-radius: 10px;
+
+}

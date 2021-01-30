@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+* {
+  color: #4A4A4A;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  
+  background: linear-gradient(-45deg, #73bee9 0%, #92baff 100%);
+  font-family: 'DM Sans', sans-serif;
+  color: #4A4A4A;
+  height: 100%;
+}
+
+button {
+  cursor: pointer;
+}
